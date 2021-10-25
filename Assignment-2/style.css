@@ -1,0 +1,166 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Erik Hoffman
+ * email: hoffmeri@oregonstate.edu
+ */
+
+body {
+    font-family: Roboto, "Roboto Slab";
+    margin: 0px;
+        
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+}
+
+
+.site-title a {
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 72px;
+    text-decoration: none;
+}
+
+.filter-container {
+    width: 200px;
+    height: 100%;
+    background-color: #EFEFEF;
+    border-radius: 2px;
+    float: left;
+    padding: 20px;
+    margin: 10px
+}
+
+.filter-input-container {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items:center;
+}
+
+aside h2 {
+    margin: 0px;
+}
+
+.filter-input-element {
+    margin-left: 10px;
+    width: 100%;
+    height: 22px;
+}
+
+#filter-city {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.filter-input {
+    width: 98%;
+    height: 100%;
+    border: 1px solid #E0E1E0;
+    border-radius: 2px;
+}
+
+#filter-max-price {
+    width :95%
+}
+
+#filter-condition {
+    width: 100%;
+    border: 1px solid #ABABAB;
+}
+
+#filter-update-button {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 43px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+#filter-update-button:hover {
+    cursor: pointer;
+    background-color: #F2D0B7;
+    color: black;
+}
+
+#posts {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #E9E9E9;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.post-contents {
+    width: 100%;
+    height: 100%;
+}
+
+.post-image-container img {
+    max-height: 250px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.post-info-container {
+    line-height: 1.5em;
+    padding: 20px 0px;
+}
+
+
+.post-info-container a {
+    color: #F47930;
+    text-decoration: none;
+}
+
+.post-price {
+    font-size: 10pt;
+    background-color: #EFEFEF;
+    border: 1px solid #C1C1C1;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.post-info-container a:hover {
+    text-decoration: underline;
+}
+
+#sell-something-button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #F37728;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 30px;
+    border-radius: 50%;
+    align-content: center;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+#sell-something-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
